@@ -1,0 +1,24 @@
+https://www.w3.org/TR/WCAG20/
+https://webaim.org/standards/wcag/checklist
+
+Tools to analyse the color contrast of the pages \
+https://webaim.org/resources/contrastchecker
+https://wave.webaim.org
+
+Focus-management
+
+
+Accessibility principles 
+1- Perceivable - Information and user interface components must be presentable to users in ways they can perceive.
+[Text Alternatives - Adaptable -Distinguishable[Contrast,Resize text,..]]
+2- Operable - User interface components and navigation must be operable.
+	[Keyboard Accessible-Enough Time-Seizures-Navigable]
+3- Understandable - Information and the operation of user interface must be understandable.
+	[Readable-Predictable-Input Assistance]
+4- Robust - Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.
+	[Compatible]
+
+Skip links
+<a refer to main element which have tabindex -1>  a {position absolute; setting it off the screen top:-40px;} a:focus {make it appear when it gains focus}
+
+Removing Headache from focus Management
